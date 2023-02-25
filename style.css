@@ -1,0 +1,53 @@
+div {
+  margin: 10px;
+  text-align: center;
+}
+
+div a {
+  font-family: "Open Sans", sans-serif;
+  margin: 20px;
+  text-decoration: none;
+  color: #181818;
+}
+
+.container {
+  margin: 60px;
+}
+
+.box {
+  text-align: center;
+  margin: 50px;
+  display: flex;
+}
+
+.box img {
+  margin: 10px;
+
+  width: 90px;
+  border-radius: 4px 2px;
+}
+
+.box,
+img,
+a {
+  padding: 4px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav {
+  padding: 4px;
+  display: flex;
+  text-align: center;
+  margin: 5vw;
+}
+nav,
+#color {
+  color: #000000;
+}
+
+nav,
+p {
+  font-family: "Roboto", sans-serif;
+  color: #818181;
+}
